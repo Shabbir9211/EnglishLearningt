@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnEnglishActivity">
+
+
+    <Button
+        android:id="@+id/btnEngGrammar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="اانگریزی قواعد"
+        android:textSize="30dp"></Button>
+
+    <Button
+        android:id="@+id/btnEngTenses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEngGrammar"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:text="انگریزی ٹینس"
+        android:textSize="30dp"></Button>
+
+
+</RelativeLayout>

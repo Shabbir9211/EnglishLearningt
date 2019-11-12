@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">English Learning</string>
+    <string name="title_activity_learn_free_english">LearnFreeEnglishActivity</string>
+    <string name="tab_text_1">روزمرہ کے الفاظ</string>
+    <string name="tab_text_2">روزمرہ کے جملے</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

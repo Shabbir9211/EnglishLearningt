@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <Button
+        android:id="@+id/btnLearnEng"
+        android:text="انگریزی سیکھیے"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical" ></Button>
+    <Button
+        android:id="@+id/btnFreeLearnEngGrammer"
+        android:text="مفت انگریزی گرائمر سیکھیں"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical" ></Button>
+
+    <Button
+        android:id="@+id/btnDictionary"
+        android:text="انگریزی سے اردو ڈکشنری"
+        android:layout_width="fill_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical" ></Button>
+
+    <Button
+        android:id="@+id/btnTodayWord"
+        android:textSize="20dp"
+        android:text="آج کا لفظ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical" ></Button>
+
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/btnTodayQustion"
+        android:text="آج کا سوال"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical" ></Button>
+
+
+
+
+</LinearLayout>
